@@ -1,0 +1,11 @@
+/* COPYRIGHT (Cuối trang) */
+#copyright {
+    background: #fff;
+}
+#copyright p { 
+    text-align: center;
+    color: #454545;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0px;   
+}

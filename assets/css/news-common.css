@@ -1,0 +1,132 @@
+/* COMMON (Sử dụng thường xuyên) */
+
+/* COLOR */
+.color-white {
+    color: #ffffff;
+}
+
+/* FONT */
+.font-size-21 {
+    font-size: 21px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+/* PADDING */
+.padding-left-0 {
+    padding-left: 0px;
+}
+
+.padding-right-10 {
+    padding-right: 10px;
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+/* MARGIN */
+.margin-right-30 {
+    margin-right: 30px;
+}
+.margin-right-20 {
+    margin-right: 20px;
+}
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+/* BORDER */
+.border-bottom {
+    display: block;
+    border-bottom: 1px solid;
+}
+
+.boder-bg-green {
+    border-color: #01a050;
+}
+
+/* BACKGROUND */
+.background-green {
+    background-color: #01a050;
+}
+
+/* DISPLAY */
+.dp-block {
+    display: block;
+}
+
+/* FLEX */
+.dp-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* =================================== */
+/* MAIN */
+.container {
+    margin: 0px auto;
+    width: 1170px;
+}
+
+/* CATEGORIES */
+.categories .item {
+    display: flex;
+}
+
+.categories .item div img {
+    margin-right: 20px;
+}
+
+.categories .item div p {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* TITLE BUTTON */
+.title-button {
+    display: inline-block;
+    padding: 16px 20px 15px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}

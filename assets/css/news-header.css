@@ -1,0 +1,67 @@
+/* HEADER (Đầu trang) */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#header {
+    padding: 16px 0px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#header>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LOGO */
+#logo {
+    margin-right: 70px;
+}
+
+#logo>p {
+    font-family: 'Anton', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #008643;
+}
+
+/* MENU */
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: #000000;
+    padding: 5px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+.menu ul li a:hover {
+    color: #4834d4;
+}
+
+.menu ul li:first-child a {
+    padding-left: 0px;
+}
+
+/* SEARCH */
+#search form {
+    position: relative;
+}
+
+#search form i {
+    position: absolute;
+    right: 15px;
+    top: 6px;
+}
+
+#search form input {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 5px 40px 5px 20px;
+}
+

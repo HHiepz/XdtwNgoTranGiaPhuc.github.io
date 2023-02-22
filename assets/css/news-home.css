@@ -1,0 +1,50 @@
+/* HOME (Trang Home, index) */
+
+#wp-content {
+    margin-right: 35px;
+}
+
+/* ATTENTION */
+#attention {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NEW-NEWPAPER */
+#new-newspaper-attention {
+    max-width: 475px;
+    margin-right: 30px;
+}
+
+#new-newspaper-attention h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#new-newspaper-attention p {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+/* CATEGORIES SUMMARY */
+.categories-summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-newspaper-categories-summary {
+    max-width: 475px;
+    margin-right: 30px;
+}
+
+.new-newspaper-categories-summary__details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-newspaper-categories-summary__details p {
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 20px;
+}

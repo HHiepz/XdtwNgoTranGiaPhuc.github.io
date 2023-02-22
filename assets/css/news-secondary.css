@@ -1,0 +1,27 @@
+/* SECONDARY (Nội dung phụ) */
+
+#secondary {
+    border-left: 1px solid #f5f5f5;
+    padding-left: 32px;
+    max-width: 340px;
+}
+
+/* BANNER */
+.banner {
+    display: block;
+    margin-bottom: 55px;
+}
+
+.banner img {
+    max-width: 307px;
+    height: auto;
+}
+
+/* ĐỌC NHIỀU NHẤT */
+.most-reading {
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 21px;
+}
+
+/* CSS chi tiết chuyên mục 'đọc nhiều nhất' => news.common.css *//* tên "CATEGORIES" */
